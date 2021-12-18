@@ -1,0 +1,127 @@
+.section-equipment {
+  .container {
+    max-width: 1000px;
+  }
+  .equipment-banner {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    .title {
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 34px;
+    }
+    .desc {
+      max-width: 700px;
+      text-align: center;
+    }
+  }
+  .equiment-body {
+    padding: 60px 0;
+    .wrap-equipment {
+      margin-bottom: 40px;
+      .title {
+        text-align: center;
+        color: #045184;
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 30px;
+      }
+      .body {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -30px;
+        .box-item {
+          width: calc(100% / 3);
+          padding: 0 20px;
+          margin-bottom: 40px;
+          height: 100%;
+          .item {
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            .item-img {
+              height: 240px;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+            .item-body {
+              padding: 15px;
+              .item-title {
+                text-align: center;
+                font-weight: 500;
+                font-size: 18px;
+                color: #000;
+                min-height: 58px;
+              }
+              .item-btn {
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                min-height: 38px;
+                a {
+                  padding: 6px 20px;
+                  background: #055184;
+                  display: inline-block;
+                  border-radius: 4px;
+                  text-decoration: none;
+                  color: #fff;
+                  &:hover {
+                    opacity: 0.8;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .section-equipment .equipment-banner .title {
+    font-size: 22px;
+  }
+  .section-equipment .equiment-body .wrap-equipment {
+    .title {
+      font-size: 24px;
+    }
+    .body {
+      margin: 0 -15px;
+      .box-item {
+        width: 50%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .section-equipment .equipment-banner {
+    padding: 20px;
+    height: 300px;
+    .desc {
+      margin-top: 10px;
+    }
+  }
+  .section-equipment .equiment-body .wrap-equipment {
+    .title {
+      font-size: 20px;
+    }
+    .body {
+      .box-item {
+        width: 100%;
+      }
+    }
+  }
+}

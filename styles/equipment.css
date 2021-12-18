@@ -1,0 +1,150 @@
+.section-equipment .container {
+  max-width: 1000px;
+}
+
+.section-equipment .equipment-banner {
+  height: 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.section-equipment .equipment-banner .title {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 34px;
+}
+
+.section-equipment .equipment-banner .desc {
+  max-width: 700px;
+  text-align: center;
+}
+
+.section-equipment .equiment-body {
+  padding: 60px 0;
+}
+
+.section-equipment .equiment-body .wrap-equipment {
+  margin-bottom: 40px;
+}
+
+.section-equipment .equiment-body .wrap-equipment .title {
+  text-align: center;
+  color: #045184;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.section-equipment .equiment-body .wrap-equipment .body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -30px;
+}
+
+.section-equipment .equiment-body .wrap-equipment .body .box-item {
+  width: calc(100% / 3);
+  padding: 0 20px;
+  margin-bottom: 40px;
+  height: 100%;
+}
+
+.section-equipment .equiment-body .wrap-equipment .body .box-item .item {
+  border-radius: 6px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.section-equipment .equiment-body .wrap-equipment .body .box-item .item .item-img {
+  height: 240px;
+}
+
+.section-equipment .equiment-body .wrap-equipment .body .box-item .item .item-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section-equipment .equiment-body .wrap-equipment .body .box-item .item .item-body {
+  padding: 15px;
+}
+
+.section-equipment .equiment-body .wrap-equipment .body .box-item .item .item-body .item-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  min-height: 58px;
+}
+
+.section-equipment .equiment-body .wrap-equipment .body .box-item .item .item-body .item-btn {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  min-height: 38px;
+}
+
+.section-equipment .equiment-body .wrap-equipment .body .box-item .item .item-body .item-btn a {
+  padding: 6px 20px;
+  background: #055184;
+  display: inline-block;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.section-equipment .equiment-body .wrap-equipment .body .box-item .item .item-body .item-btn a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 991px) {
+  .section-equipment .equipment-banner .title {
+    font-size: 22px;
+  }
+  .section-equipment .equiment-body .wrap-equipment .title {
+    font-size: 24px;
+  }
+  .section-equipment .equiment-body .wrap-equipment .body {
+    margin: 0 -15px;
+  }
+  .section-equipment .equiment-body .wrap-equipment .body .box-item {
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .section-equipment .equipment-banner {
+    padding: 20px;
+    height: 300px;
+  }
+  .section-equipment .equipment-banner .desc {
+    margin-top: 10px;
+  }
+  .section-equipment .equiment-body .wrap-equipment .title {
+    font-size: 20px;
+  }
+  .section-equipment .equiment-body .wrap-equipment .body .box-item {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=equipment.css.map */

@@ -1,0 +1,142 @@
+.service-blog .service-banner {
+  background: #045184;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.service-blog .service-banner .text {
+  color: #fff;
+  font-weight: 500;
+  font-size: 32px;
+  position: relative;
+  padding-bottom: 8px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.service-blog .service-banner .text:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 50%;
+  bottom: 0;
+  left: 50%;
+  background: #d9dd00;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.service-blog .service-blog-body {
+  padding: 60px 0;
+}
+
+.service-blog .service-blog-body .box-service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -15px;
+}
+
+.service-blog .service-blog-body .box-service .service-slider {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.service-blog .service-blog-body .box-service .service-slider .slider-for .item-img {
+  width: 100%;
+  height: 400px;
+}
+
+.service-blog .service-blog-body .box-service .service-slider .slider-for .item-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.service-blog .service-blog-body .box-service .service-slider .slider-nav .item-img {
+  height: 80px;
+  width: 100%;
+  border: 1px solid #fff;
+}
+
+.service-blog .service-blog-body .box-service .service-slider .slider-nav .item-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.service-blog .service-blog-body .box-service .service-text {
+  width: 50%;
+  padding: 0 15px;
+  height: 100%;
+}
+
+.service-blog .service-blog-body .box-service .service-text .box-text {
+  background: #f7f7f7;
+  height: 100%;
+  padding: 15px;
+}
+
+.service-blog .service-blog-body .box-service .service-text .box-text p {
+  margin-top: 0;
+}
+
+.slick-arrow {
+  z-index: 1;
+}
+
+.slick-prev {
+  left: 40px;
+}
+
+.slick-prev::before {
+  font-size: 30px;
+}
+
+.slick-next {
+  right: 40px;
+}
+
+.slick-next::before {
+  font-size: 30px;
+}
+
+@media (max-width: 991px) {
+  .service-blog .service-blog-body .box-service {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .service-blog .service-blog-body .box-service .service-slider {
+    width: 100%;
+  }
+  .service-blog .service-blog-body .box-service .service-text {
+    margin-top: 15px;
+    width: 100%;
+  }
+  .service-blog .service-banner .text {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 575px) {
+  .service-blog .service-banner .text {
+    font-size: 20px;
+  }
+  .service-blog .service-blog-body .box-service .service-slider .slider-for .item-img {
+    height: 300px;
+  }
+  .service-blog .service-blog-body .box-service .service-slider .slider-nav .item-img {
+    height: 60px;
+  }
+}
+/*# sourceMappingURL=service.css.map */
