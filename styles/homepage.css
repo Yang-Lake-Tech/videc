@@ -48,7 +48,7 @@
   z-index: 1;
   text-align: center;
   padding: 40px 50px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.7);
   min-width: 500px;
   -webkit-transform: translateX(30px) translateY(-50%);
           transform: translateX(30px) translateY(-50%);
@@ -61,7 +61,6 @@
   font-size: 56px;
   margin: 0;
   line-height: 1.2;
-  margin-bottom: 10px;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   -webkit-transition-delay: 0.5s;
@@ -69,6 +68,8 @@
   opacity: 0;
   -webkit-transform: translateY(-15px);
           transform: translateY(-15px);
+  color: #6a9ad0;
+  text-transform: uppercase;
 }
 
 .section-banner .box-img .text p {
@@ -148,6 +149,10 @@
   text-align: center;
 }
 
+.section-about .box-text .txt {
+  text-align: justify;
+}
+
 .section-about .box-text .btn {
   text-align: center;
   margin-top: 40px;
@@ -209,10 +214,12 @@
 }
 
 .section-service .service-body .box-item .item {
+  display: block;
   border-radius: 6px;
   overflow: hidden;
   -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
 }
 
 .section-service .service-body .box-item .item:hover img {
@@ -222,6 +229,7 @@
 
 .section-service .service-body .box-item .item .item-img {
   height: 350px;
+  display: block;
   overflow: hidden;
 }
 
@@ -361,6 +369,10 @@
   font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 15px;
+}
+
+.section-contact .box-contact .contact-info .info-desc {
+  text-align: justify;
 }
 
 .section-contact .box-contact .contact-info ul {
